@@ -1,0 +1,17 @@
+body{
+    background-color: #00162C;
+}
+.container-custom{
+    max-width: 600px;
+}
+.title{
+    font-size: 130px;
+    font-weight: 100;
+    color: #626B73;
+}
+.icon{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
