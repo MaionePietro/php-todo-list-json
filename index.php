@@ -15,8 +15,8 @@
     <div id="app" class="container container-custom">
         <h1 class="title text-center">Todo List</h1>
         <ul class="list-group">
-            <li @click="" :class="text-decoration-line-through" class="list-group-item d-flex justify-content-between align-items-center">
-                <span>cose</span>
+            <li v-for="element in list" @click="" :class="text-decoration-line-through" class="list-group-item d-flex justify-content-between align-items-center">
+                <span>{{element.text}}</span>
                 <i class="fa-solid fa-trash icon"></i>
             </li>
             

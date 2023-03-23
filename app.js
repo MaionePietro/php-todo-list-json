@@ -9,8 +9,8 @@ createApp({
     methods: {
         fetchTodoList(){
             axios.get('./server.php').then((res) =>{
-            //this.list = res.
-            console.log(res.data.text[0])
+                console.log(res.data)
+                this.list = res.data
             }) 
         }
     },
